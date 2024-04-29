@@ -1249,9 +1249,9 @@ const verbs = [
     "id": 178
   },
   {
-    "Infinitive": "test-drive",
-    "SimplePast": "test-drove",
-    "PastParticiple": "test-driven",
+    "Infinitive": "test.tsx-drive",
+    "SimplePast": "test.tsx-drove",
+    "PastParticiple": "test.tsx-driven",
     "French": "Tester un véhicule",
     "id": 179
   },
