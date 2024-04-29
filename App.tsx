@@ -5,15 +5,21 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import HomeScreen from "./src/Home";
 import AboutScreen from "./src/About";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import SplashScreen from "react-native-splash-screen";
 
 const Stack = createNativeStackNavigator() ;
 
 function App(): React.JSX.Element {
+
+    useEffect(() => {
+        SplashScreen.hide();
+    }, []);
+
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
