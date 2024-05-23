@@ -1,8 +1,23 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+This is a React Native project that contains a comprehensive list of English irregular verbs and their corresponding French translations. The repository provides a user-friendly interface that allows users to search and browse the list of verbs.
+
+## Requirements:
+```
+- Node > 21
+```
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+To get started with the app, clone this repository and install the necessary dependencies:
+
+```bash
+git clone https://github.com/RantoPenjy/IVerb
+```
+```bash
+cd IVerb
+```
+```bash
+npm install
+```
 
 ## Step 1: Start the Metro Server
 
